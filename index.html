@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dharmesh Vala</h1>
+    </header>
+
+    <div class="section" id="introduction">
+        <h2>Introduction</h2>
+        <p>Hello! Dharmesh Vala, a passionate IT training. Welcome to my portfolio where you can explore my journey, education, and projects.</p>
+    </div>
+
+    <div class="section" id="education">
+        <h2>Education</h2>
+        <p>I have pursued in-depth training and certification in cybersecurity, specializing in threat detection and mitigation from Gujarat Technology University. My education emphasizes both theoretical knowledge and practical experience.</p>
+    </div>
+
+    <div class="section" id="experience">
+        <h2>Experience</h2>
+        <p><strong>TechDefence:</strong> Provided IT security services, including threat analysis, penetration testing, and implementing robust security protocols to protect client infrastructure.</p>
+        <p><strong>IT-Certified Trainer at Gujarat University:</strong> Delivered comprehensive training sessions on IT security, focusing on practical skills and real-world applications for students and professionals.</p>
+        <p><strong>IT-Certified Trainer at Parul University:</strong> Conducted workshops and certification programs, helping participants build a strong foundation in cybersecurity concepts and practices.</p>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="card">
+                <img src="https://analyst1.com/wp-content/uploads/2023/05/threat-intelligence-platform-hero-image.jpg" alt="Project 1">
+                <div class="card-content">
+                    <h2>Threat Intelligence Automation Platform</h2>
+                    <p>Develop a system that collects, analyzes, and visualizes threat intelligence data from multiple sources to aid in real-time decision-making. The project would integrate APIs for feeds like VirusTotal and AbuseIPDB, enabling streamlined SOC operations.</p>
+                    <br>
+
+                    <button>View Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://redresscompliance.com/wp-content/uploads/2024/07/What-is-AI-for-Phishing-Detection.webp" alt="Project 2">
+                <div class="card-content">
+                    <h2>AI-Powered Phishing Detection Tool</h2>
+                    <p>Create a machine learning model to detect and classify phishing emails based on linguistic and behavioral patterns. This project would include building a dataset of phishing emails and deploying a lightweight browser plugin for end-user protection.</p>
+                    <br>
+
+                    <button>View Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://fairfieldinvestigation.com/wp-content/uploads/2023/12/Network-Intrusion-Detection-and-Prevention-.webp" alt="Project 3">
+                <div class="card-content">
+                    <h2>Network Intrusion Detection System (NIDS) Using ML</h2>
+                    <p>Build a network-based intrusion detection system leveraging machine learning techniques to identify and mitigate anomalies. The system would focus on detecting patterns like DDoS, brute force attacks, and zero-day exploits</p>
+                    <br>
+
+                    <button>View Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Dharmesh Vala. All rights reserved.</p>
+    </footer>
+    <script>
+        // Add interactivity if needed
+        const buttons = document.querySelectorAll('button');
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Details coming soon!');
+            });
+        });
+    </script>
+</body>
+</html>
